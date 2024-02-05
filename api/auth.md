@@ -14,11 +14,22 @@ All of the methods (except for the public timeline) require user authentication 
 
 ## Making Requests
 
-When making requests to the Owler API, include the Basic Authentication credentials in the Authorization header of your HTTP request. Here's an example using cURL:
+When making requests to the Owler API, include the Basic Authentication credentials in the Authorization header of your HTTP request. Here's an example using JavaScript:
 
-```bash
-curl -X GET \
-  -H "Authorization: Basic ENCODED_CREDENTIALS" \
-  https://api.owler.cloud/v1/verify_credentials.json```
+```javascript
+var endpoint = 'https://api.owler.cloud/account/verify_credentials.json';
+xhr.open('GET', url, true);
 
-ENCODED_CREDENTIALS 
+var credentials = btoa(username + ':' + password);
+xhr.setRequestHeader('Authorization', 'Basic ' + credentials)
+
+xhr.onload = function () {
+if (xhr.status == 401) {
+    alert('Invalid username or password!');
+} else if (xhr.status == 200) {
+    alert('Logged successfully.');
+} 
+};
+
+xhr.send(data);
+```
