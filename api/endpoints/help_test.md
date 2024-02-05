@@ -26,3 +26,4 @@ Useful for checking server status
 ### JSON:
 ```json
 {"success": true, "request": "/v1/help/test.json"}
+```

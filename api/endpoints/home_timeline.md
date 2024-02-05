@@ -12,7 +12,7 @@ Get the following timeline. Authentication is required.
 * ```page``` (int) [optional]: This field specifies the page number of the results you want to retrieve. (minimum 1)
 * ```full``` (boolean) [optional]: When "true" is set, it should return more information about the updates, for example when the user is replying to a status a ```reply``` field should be set, and other fields, mentioned below.
 
-**Example:** ```/v1/statuses/public_timeline.xml?full=true```
+**Example:** ```/v1/statuses/home_timeline.xml?full=true```
 
 ## Responses
 
@@ -30,9 +30,8 @@ In a successful response, it should return the following fields:
 * ```text``` (string)
 * ```created_at``` (timestamp): When the status was created.
 * ```source``` (string): App used for creating the status.
-* ```request``` (string): Request endpoint
 #### The following fields should only appear when full is set to true:
-* ```favorited``` (string): App used for creating the status.
+* ```favorited``` (bool): If you favorited this update or not.
 * ```reply``` (object) [optional] with ```reply.user``` (user object) [optional] and ```reply.id```
 
 A successful response (with full field set to true) should look like this:
