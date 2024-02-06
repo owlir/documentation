@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Authentication
-nav_order: 2
-parent: API
+nav_order: 3
 ---
 
 # Authentication
