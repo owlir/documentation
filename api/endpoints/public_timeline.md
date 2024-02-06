@@ -104,21 +104,3 @@ A successful response (with full field set to true) should look like this:
       "favorited":false
    }
 ]
-```
-
-
-And a unsuccessful authentication response should look like:
-
-
-##### XML:
-```xml
-<hash>
-<error>Could not authenticate you.</error>
-<request>/v1/statuses/public_timeline.xml</request>
-</hash>
-```
-
-##### JSON:
-```json
-{"error": "Could not authenticate you.", "request": "/v1/statuses/public_timeline.json"}
-```
