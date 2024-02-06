@@ -49,38 +49,24 @@ A successful response (with full field set to true) should look like this:
             <protected>false</protected>
             <profile_image_url>https://picsum.photos/48/48</profile_image_url>
         </user>
-        <text>testing the api!</text>
-        <id>30</id>
-        <created_at>Wed Nov 08 20:47:50 GMT 2023</created_at>
-        <source>web (legacy)</source>
-        <favorited>false</favorited>
-    </status>
-    <status>
-        <user>
-            <name>alguem</name>
-            <screen_name>alguem</screen_name>
-            <id>65c14223115d030584d3d2b8</id>
-            <protected>false</protected>
-            <profile_image_url>https://picsum.photos/48/48</profile_image_url>
-        </user>
-        <text>ola amigos!</text>
+        <text>what are you doing?</text>
         <id>20</id>
-        <created_at>Thu Nov 02 22:50:40 GMT 2023</created_at>
-        <source>web (legacy)</source>
+        <created_at>Wed Nov 08 20:48:50 GMT 2023</created_at>
+        <source>web</source>
         <favorited>false</favorited>
     </status>
     <status>
         <user>
-            <name>someone</name>
-            <screen_name>someone</screen_name>
-            <id>65c14229cf25e514d7a064d3</id>
+            <name>Owler</name>
+            <screen_name>owler</screen_name>
+            <id>65c1421a1897e7840ad8d315</id>
             <protected>false</protected>
             <profile_image_url>https://picsum.photos/48/48</profile_image_url>
         </user>
-        <text>hello friends!</text>
+        <text>testing the api!</text>
         <id>10</id>
-        <created_at>Thu Nov 02 16:40:50 GMT 2023</created_at>
-        <source>web (legacy)</source>
+        <created_at>Wed Nov 08 20:47:50 GMT 2023</created_at>
+        <source>api</source>
         <favorited>false</favorited>
     </status>
 </statuses>
@@ -89,6 +75,20 @@ A successful response (with full field set to true) should look like this:
 ##### JSON:
 ```json
 [
+    {
+      "user":{
+         "name":"Owler",
+         "screen_name":"owler",
+         "id":"65c1421a1897e7840ad8d315",
+         "protected":false,
+         "profile_image_url":"https://picsum.photos/48/48"
+      },
+      "text":"what are you doing?",
+      "id":20,
+      "created_at":"Wed Nov 08 20:48:50 GMT 2023",
+      "source":"web",
+      "favorited":false
+   },
    {
       "user":{
          "name":"Owler",
@@ -98,9 +98,9 @@ A successful response (with full field set to true) should look like this:
          "profile_image_url":"https://picsum.photos/48/48"
       },
       "text":"testing the api!",
-      "id":1960,
+      "id":10,
       "created_at":"Wed Nov 08 20:47:50 GMT 2023",
-      "source":"web (legacy)",
+      "source":"api",
       "favorited":false
    }
 ]
