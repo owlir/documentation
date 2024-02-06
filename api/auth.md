@@ -1,6 +1,7 @@
 ---
-title: Authentication
 layout: default
+title: Authentication
+nav_order: 1
 ---
 
 # Authentication

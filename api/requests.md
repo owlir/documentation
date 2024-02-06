@@ -1,7 +1,9 @@
 ---
 title: Making requests
 layout: default
+nav_order: 2
 ---
+
 # Making requests
 
 All queries to the Owler API must be served over HTTPS and need to be presented in this form:
