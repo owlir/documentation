@@ -3,6 +3,7 @@ description: APIs for interacting with Owler
 theme: just-the-docs
 
 url: https://docs.owler.cloud
+baseurl: ""
 
 aux_links:
   Main Website: https://owler.cloud
