@@ -1,6 +1,7 @@
 ---
 title: /account/verify_credentials
 layout: default
+parent: Endpoints
 ---
 # /account/verify_credentials
 

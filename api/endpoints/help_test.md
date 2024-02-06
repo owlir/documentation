@@ -1,6 +1,7 @@
 ---
 title: /help/test
 layout: default
+parent: Endpoints
 ---
 # /help/test
 

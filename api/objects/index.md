@@ -1,8 +1,9 @@
 ---
 layout: default
-title: objects
-nav_order: 2
+title: Objects
+nav_order: 4
+parent: API
 has_children: true
 ---
 
-# objects
+# Objects

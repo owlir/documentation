@@ -1,8 +1,9 @@
 ---
 layout: default
-title: endpoints
-nav_order: 1
+title: Endpoints
+nav_order: 3
+parent: API
 has_children: true
 ---
 
-# endpoints
+# Endpoints

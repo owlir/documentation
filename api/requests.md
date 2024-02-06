@@ -1,7 +1,8 @@
 ---
 title: Making requests
 layout: default
-nav_order: 2
+parent: API
+nav_order: 1
 ---
 
 # Making requests
