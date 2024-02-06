@@ -10,15 +10,15 @@ To verify account credentials. Authentication is required.
 ## Responses
 
 ### HTTP Status
-- ```200``` - Authenticated succesfully
-- ```401``` - Invalid login details
+- `200` - Authenticated succesfully
+- `401` - Invalid login details
 
 ### Body
 
 #### Fields:
-* ```success``` (string) [optional]: Message indicating the autentication was successful.
-* ```error``` (string) [optional]: Message indicating the autentication was unsuccessful, or other errors that could occur.
-* ```request``` (string): Request endpoint
+* `success` (string) [optional]: Message indicating the autentication was successful.
+* `error` (string) [optional]: Message indicating the autentication was unsuccessful, or other errors that could occur.
+* `request` (string): Request endpoint
 
 A successful authentication response should look like this:
 
