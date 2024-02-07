@@ -5,7 +5,7 @@ parent: Endpoints
 ---
 # /statuses/followers
 
-Get the 100 last users you're following or are friends with. Authentication is required.
+Get the 100 last followers. Authentication is required.
 ## Responses
 
 ### HTTP Status
