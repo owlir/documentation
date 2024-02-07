@@ -1,9 +1,9 @@
 ---
-title: /statuses/friends
+title: /statuses/followers
 layout: default
 parent: Endpoints
 ---
-# /statuses/friends
+# /statuses/followers
 
 Get the 100 last users you're following or are friends with. Authentication is required.
 ## Responses
