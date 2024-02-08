@@ -6,7 +6,7 @@ parent: Endpoints
 # /statuses/destroy/{sid}
 
 Authentication is required.
-- `sid`: Update's `id`
+- `sid`: Statuses's `id`
 ## Request
 **HTTP Methods**: POST
 
