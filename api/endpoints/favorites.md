@@ -6,7 +6,7 @@ parent: Endpoints
 ---
 # /favorites
 
-Get the following timeline. Authentication is required.
+Get your favorites. Authentication is required.
 ## Request
 **HTTP Methods**: GET, POST
 ### Fields:
