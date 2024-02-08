@@ -53,7 +53,7 @@ A successful response (with full field set to true) should look like this:
         <id>20</id>
         <created_at>Wed Nov 08 20:48:50 GMT 2023</created_at>
         <source>web</source>
-        <favorited>false</favorited>
+        <favorited>true</favorited>
     </status>
     <status>
         <user>
@@ -67,7 +67,7 @@ A successful response (with full field set to true) should look like this:
         <id>10</id>
         <created_at>Wed Nov 08 20:47:50 GMT 2023</created_at>
         <source>api</source>
-        <favorited>false</favorited>
+        <favorited>true</favorited>
     </status>
 </statuses>
 ```
@@ -87,7 +87,7 @@ A successful response (with full field set to true) should look like this:
       "id":20,
       "created_at":"Wed Nov 08 20:48:50 GMT 2023",
       "source":"web",
-      "favorited":false
+      "favorited":true
    },
    {
       "user":{
@@ -101,7 +101,7 @@ A successful response (with full field set to true) should look like this:
       "id":10,
       "created_at":"Wed Nov 08 20:47:50 GMT 2023",
       "source":"api",
-      "favorited":false
+      "favorited":true
    }
 ]
 ```
